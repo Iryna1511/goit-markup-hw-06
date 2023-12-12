@@ -219,6 +219,8 @@ button {
     position: absolute;
     top: 24px;
     right: 8px;
+    width: 24px;
+    height: 24px;
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid #e7e9fc;
