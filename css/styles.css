@@ -210,6 +210,9 @@ button {
     padding-top: 72px;
     padding-bottom: 40px;
     width: 320px;
+
+    display: flex;
+    flex-direction: column;
   }
 
   .mobile-close-btn {
