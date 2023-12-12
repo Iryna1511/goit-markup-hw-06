@@ -188,6 +188,8 @@ button {
     left: 0;
     z-index: 999;
 
+    display: flex;
+
     background-color: #fff;
     transform: translateX(100%);
 
@@ -207,9 +209,7 @@ button {
     position: relative;
     padding-top: 72px;
     padding-bottom: 40px;
-
-    display: flex;
-    flex-direction: column;
+    width: 320px;
   }
 
   .mobile-close-btn {
@@ -237,6 +237,10 @@ button {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+  }
+
+  .mobile-contacts-wrap {
+    margin-top: auto;
   }
 
   .mobile-contacts {
@@ -267,7 +271,6 @@ button {
   .mobile-menu-icon-container {
     display: flex;
     justify-content: space-between;
-    max-width: 280px;
   }
 }
 /* ==== / MOBILE MENU ==== */
